@@ -1,0 +1,85 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+table, th, td {
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+iframe{
+    width: 333px;
+    height: 449px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px;
+}
+#content{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+}
+.userDetail{
+	position: absolute;
+	border: 1px;
+	top: 0;
+    left: 50px;
+    width: 333px;
+    height: 449px;
+}
+.userList{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.modify{
+    display: inline-block;
+    background-color: skyblue;
+    border: none;
+    border-radius: 6px;
+    color:white;
+/*    padding: 7.5px 16px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px 1px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.modify:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,.24),
+    0 17px 50px 0 rgba(0,0,0,.19);
+}
+.delete{
+    display: inline-block;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color:white;
+/*    padding: 7.5px 16px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px 1px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.delete:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,.24),
+    0 17px 50px 0 rgba(0,0,0,.19);
+}
+.imgs{
+	width: 80px;
+    height: 80px;
+}

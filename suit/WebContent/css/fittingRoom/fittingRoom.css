@@ -1,0 +1,259 @@
+@charset "UTF-8";
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+#fittingRoomspace{
+	display: flex;
+	width: 100%;
+    height: 100%;
+    background-image: url("../../images/ui/workspace.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+div:not(#fittingRoomspace){
+/*	background:rgba(255,0,0,0);*/
+}
+#selectedClothspace{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	height: 100%;
+}
+#selectedCloth{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+.selectedClothContent{
+	display:flex;
+	width:40%;
+	height:20%;
+	flex-wrap: wrap;
+	margin:10px;
+	box-sizing: border-box;
+}
+.spanNum{
+	align-self: center;
+}
+.imgOperate{
+	display:flex;
+	width:100%;
+	height:20%;
+	justify-content: flex-end;
+}
+.nowIndex{
+	width:18%;
+	height:100%;
+}
+.downIndex{
+	width:18%;
+	height:100%;
+	cursor:pointer;
+}
+.upIndex{
+	width:18%;
+	height:100%;
+	cursor:pointer;
+}
+.deleteIndex{
+	width:18%;
+	height:100%;
+	cursor:pointer;
+}
+#fittingRoom{
+	display: flex;
+    width: 35%;
+    height: 100%;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 40%;
+}
+#clothDisplay{
+	width: 100%;
+    position: relative;
+    height: 80%;
+    z-index: 1;
+}
+#ground{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    top: -85%;
+}
+.wearedCloth{
+	position: absolute;
+    width: 100%;
+    height: 80%;
+}
+/* #clothDisplay{
+	position: absolute;
+} */
+#totalPrice{
+	width: 20%;
+    position: relative;
+    height: 7%;
+    z-index: 1;
+    top: -103%;
+    left: 78%;
+    border-radius: 6px;
+    border:black solid;
+}
+#uptotalPrice{
+	width:100%;
+	height: 53%;
+	background:white;
+	text-align: center;
+	color:black;
+	border-radius: 4px 4px 0px 0px;
+}
+#allPrice{
+	align-self: center;
+}
+#downtotalPrice{
+	width:100%;
+	height: 47%;
+	background:black;
+	text-align: center;
+	color:white;
+}
+#Allprice{
+	
+}
+#clothSelectspace{
+	display: flex;
+    width: 25%;
+    height: 100%;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 75%;
+}
+#clothingClass{
+	width: 30%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#clothSelect{
+	display:flex;
+    height: 95%;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+#clothSearch{
+	width: 100%;
+	height: 5%;
+}
+.clothContent{
+	display:flex;
+	height: 40%;
+    width: 90%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.imageContent{
+	display:flex;
+}
+.imgs{
+	width: 100%;
+	height: 100%;
+}
+.contentDetail{
+	display:flex;
+	flex-direction: column;
+}
+.numberSpan{
+	background:red;
+	color :yellow;
+	border-radius: 6px;
+    padding: 2px;
+}
+.nameSpan{
+	background:blue;
+	color :yellow;
+	border-radius: 6px;
+    padding: 2px;
+}
+.priceSpan{
+	background:black;
+	color :white;
+	border-radius: 6px;
+    padding: 2px;
+}
+.imageContent{
+	width: 100%;
+	height: 70%;
+}
+.contentDetail{
+	width: 100%;
+	height: 30%;
+}
+.clothImgContent{
+	width: 75%;
+	height: 100%;
+}
+.addImgContent{
+	width: 25%;
+	height: 35%;
+	cursor:pointer;
+}
+.windowAction{
+    display: flex;
+    width: 25%;
+    height: 4%;
+}
+.exit{
+    cursor: pointer;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.exit:hover{
+	background-color: gainsboro;
+}
+.extend{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+     width: 50%;
+    height: 100%;
+}
+.extend:hover{
+	background-color: gainsboro;
+}
+.min{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.fullpage{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.min-button{
+	width: 20px;
+	height: 20px;
+	margin:4px;
+}
+.fullpage-button{
+	width: 20px;
+	height: 20px;
+	margin:4px;
+}
